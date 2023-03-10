@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+
+tools:context=".ThankYouScreen">
+
+<Button
+    android:id="@+id/HomeButton"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="100dp"
+    android:background="#00f"
+    android:hint="HOME"
+    android:padding="5dp"
+    android:textColorHint="#fff"
+    android:textSize="20sp"
+    android:textStyle="bold|italic" />
+
+<Button
+    android:id="@+id/ExitButton"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:background="#00f"
+    android:hint="EXIT"
+    android:padding="5dp"
+    android:textColorHint="#fff"
+    android:textSize="20sp"
+    android:textStyle="bold|italic" />
+
+
+</RelativeLayout>
