@@ -1,11 +1,16 @@
 {% extends 'base.html' %}
 
 {% block head %}
-<title>Input Image</title>
+<title>Pest Attack Classifier</title>
 
 {% endblock %}
 
 
 {% block body %}
-<h1>Template</h1>
+<h1 class="center-text">Pest Attack Classifier</h1>
+
+<form class="center-text" action="/" method="post" enctype="multipart/form-data">
+    <input type="file" name="imagefile" >
+    <input type="submit" value="Predict" >
+</form>
 {% endblock %}
